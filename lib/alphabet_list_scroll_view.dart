@@ -478,7 +478,7 @@ class _AlphabetListScollViewState extends State<_AlphabetListScollView> {
           child: Container(
             key: widget.insideKey,
             child: Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(12.0),
               child: GestureDetector(
                 behavior: HitTestBehavior.translucent,
                 onPanStart: (details) {
